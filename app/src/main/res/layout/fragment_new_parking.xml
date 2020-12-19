@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.NewParkingFragment"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/bgColor">
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/wrapper_style"
+        android:id="@+id/titleWrapper">
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/etTitle"
+        style="@style/material_edit_text_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Title"
+        android:inputType="textCapCharacters"
+        app:met_iconLeft="@android:drawable/ic_menu_edit"
+        app:met_iconPadding="0dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/wrapper_style"
+        android:id="@+id/addressWrapper">
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/etAddress"
+        style="@style/material_edit_text_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Address"
+        app:met_iconLeft="@android:drawable/ic_menu_edit"
+        app:met_iconPadding="0dp"
+        android:inputType="textCapCharacters"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/wrapper_style"
+            android:id="@+id/locationWrapper"
+            android:layout_weight="1">
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/etLocation"
+            style="@style/material_edit_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Location"
+            app:met_iconLeft="@android:drawable/ic_menu_edit"
+            app:met_iconPadding="0dp"
+            android:inputType="textCapCharacters"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <ImageButton
+            android:id="@+id/btnPickLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_dialog_map"
+            android:background="@android:color/transparent"/>
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/wrapper_style"
+        android:id="@+id/ownerWrapper">
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/etOwner"
+        style="@style/material_edit_text_style"
+        app:met_iconLeft="@android:drawable/ic_menu_edit"
+        app:met_iconPadding="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Owner"
+        android:inputType="textCapCharacters" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/wrapper_style"
+        android:id="@+id/blockWrapper">
+    <com.rengwuxian.materialedittext.MaterialEditText
+        style="@style/material_edit_text_style"
+        app:met_iconLeft="@android:drawable/ic_menu_edit"
+        app:met_iconPadding="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Number of Blocks"
+        android:id="@+id/etNumberOfBlocks"
+        android:inputType="number" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/wrapper_style"
+        android:id="@+id/phoneWrapper">
+    <com.rengwuxian.materialedittext.MaterialEditText
+        style="@style/material_edit_text_style"
+        app:met_iconLeft="@android:drawable/ic_menu_edit"
+        app:met_iconPadding="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Phone Number"
+        android:id="@+id/etPhoneNumber"
+        android:inputType="number"
+        android:maxLength="10"
+        android:text="0"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/wrapper_style"
+        android:id="@+id/chargeWrapper">
+        <com.rengwuxian.materialedittext.MaterialEditText
+            style="@style/material_edit_text_style"
+            app:met_iconLeft="@android:drawable/ic_menu_edit"
+            app:met_iconPadding="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Hourly Charge"
+            android:id="@+id/etHourlyCharge"
+            android:inputType="number"
+            android:maxLength="10"
+            android:text="30"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_gravity="right"/>
+
+</LinearLayout>

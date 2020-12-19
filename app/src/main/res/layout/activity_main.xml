@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.NewParkingPlaceActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Title"
+        android:inputType="text"
+        android:text="S T Depo Parking Area"/>
+
+    <EditText
+        android:id="@+id/etAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Address"
+        android:inputType="text"
+        android:text="Depot Rd, Behind ST Bus Depo, Madhumati Colony, Navsari, Gujarat 396445"/>
+    <EditText
+        android:id="@+id/etLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Location"
+        android:inputType="text"
+        android:text="20.950223, 72.937285"/>
+    <EditText
+        android:id="@+id/etOwner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Owner"
+        android:inputType="text"
+        android:text="S T Depo"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Number of Blocks"
+        android:id="@+id/etNumberOfBlocks"
+        android:inputType="number"
+        android:text="0"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Phone Number"
+        android:id="@+id/etPhoneNumber"
+        android:inputType="number"
+        android:maxLength="10"
+        android:text="0"/>
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_gravity="right"/>
+</LinearLayout>

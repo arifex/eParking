@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "533342270351",
+    "firebase_url": "https://carparking-6ab7e.firebaseio.com",
+    "project_id": "carparking-6ab7e",
+    "storage_bucket": "carparking-6ab7e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:533342270351:android:241e934be9a187b3",
+        "android_client_info": {
+          "package_name": "com.example.e_parking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "533342270351-ro94rja1m2di67ptgjnj3k0joe69ggof.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.e_parking",
+            "certificate_hash": "84a7831fc1337d51e39a97e91ef0d71de7ac44ca"
+          }
+        },
+        {
+          "client_id": "533342270351-lc5sqldvq5so4143gm39pos8hsgshhnn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-6Mk0Wu2A8MNwawmdPpsfeZD0D5UjWrM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "533342270351-lc5sqldvq5so4143gm39pos8hsgshhnn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:533342270351:android:4e122e612aa26d6e",
+        "android_client_info": {
+          "package_name": "com.example.jelani.carparking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "533342270351-9h090r9pumhp84r7immcl7smpumvvmqm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jelani.carparking",
+            "certificate_hash": "ed43aa3ed96a4c468d9a7a0eadb2f33e59635e3c"
+          }
+        },
+        {
+          "client_id": "533342270351-lc5sqldvq5so4143gm39pos8hsgshhnn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-6Mk0Wu2A8MNwawmdPpsfeZD0D5UjWrM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "533342270351-lc5sqldvq5so4143gm39pos8hsgshhnn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
